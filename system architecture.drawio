@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+  <diagram id="78nzc4WZlU6kqi8t-H1v" name="Page-1">
+    <mxGraphModel dx="1414" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-59" value="ServerSide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="256" height="349" as="geometry" />
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-60" value="ClientSide&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="24" y="10" width="244" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-61" value="UserInterface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="72" y="45" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-62" value="InertiaAdapter" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="68" y="149" width="164" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-63" value="InertiaController" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="61" y="325" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-64" value="BusinessLogic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="72" y="452" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-65" value="Database" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="556" width="81" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="5aQPsWxEzpSH05-SEa5Q-61" target="5aQPsWxEzpSH05-SEa5Q-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.36;exitY=1.01;entryX=0.34;entryY=0;rounded=0;" edge="1" parent="1" source="5aQPsWxEzpSH05-SEa5Q-63" target="5aQPsWxEzpSH05-SEa5Q-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92" y="416" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="5aQPsWxEzpSH05-SEa5Q-64" target="5aQPsWxEzpSH05-SEa5Q-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=0.36;entryY=0.01;rounded=0;" edge="1" parent="1" source="5aQPsWxEzpSH05-SEa5Q-62" target="5aQPsWxEzpSH05-SEa5Q-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="102" y="228" />
+              <mxPoint x="102" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-70" value="ReturnData" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0;entryX=0.57;entryY=1.01;rounded=0;" edge="1" parent="1" source="5aQPsWxEzpSH05-SEa5Q-64" target="5aQPsWxEzpSH05-SEa5Q-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182" y="416" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aQPsWxEzpSH05-SEa5Q-71" value="Render Page AndProps" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0.01;entryX=0.66;entryY=1;rounded=0;" edge="1" parent="1" source="5aQPsWxEzpSH05-SEa5Q-63" target="5aQPsWxEzpSH05-SEa5Q-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199" y="300" />
+              <mxPoint x="199" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
