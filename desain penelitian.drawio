@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.0">
   <diagram name="Page-1" id="cRG09M1pxQbPq5u62KP0">
-    <mxGraphModel>
+    <mxGraphModel dx="850" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XAdkYrait-d_PyXNVeK2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XAdkYrait-d_PyXNVeK2-2" target="XAdkYrait-d_PyXNVeK2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-2" value="Pengumpulan &#xa;Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="159" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XAdkYrait-d_PyXNVeK2-3" target="XAdkYrait-d_PyXNVeK2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-3" value="Desain Sistem" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="190" width="159" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XAdkYrait-d_PyXNVeK2-4" target="XAdkYrait-d_PyXNVeK2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-4" value="Implementasi &#xa;Metode IndRNN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="521" y="190" width="159" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XAdkYrait-d_PyXNVeK2-5" target="XAdkYrait-d_PyXNVeK2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-5" value="Uji Coba Sistem" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XAdkYrait-d_PyXNVeK2-6" value="Hasil Analisis" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="327" y="270" width="152" height="54" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
