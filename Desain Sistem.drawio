@@ -1,9 +1,83 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
   <diagram name="Page-1" id="86oKs7ROj0aPrSylgSHo">
-    <mxGraphModel>
+    <mxGraphModel dx="1255" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-170" width="900" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-50" width="900" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-44" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="68" width="900" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9YlLgLPU3R_bMf61u_1-46" target="A9YlLgLPU3R_bMf61u_1-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-46" value="Preprocessing &#xa;Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="69.62" y="-22" width="108.25" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9YlLgLPU3R_bMf61u_1-48" target="A9YlLgLPU3R_bMf61u_1-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-48" value="Parameter &#xa;Initialization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="208.25" y="-22" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-49" value="Training &#xa;IndRNN Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359.25" y="-22" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9YlLgLPU3R_bMf61u_1-51" target="A9YlLgLPU3R_bMf61u_1-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="675" y="16" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-51" value="Prediction &#xa;with IndRNN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="511.25" y="-22" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-52" value="Performance Analysis&#xa; RMSE &amp; MAPE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="733.25" y="-22" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9YlLgLPU3R_bMf61u_1-54" target="A9YlLgLPU3R_bMf61u_1-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-54" value="Best Model Configuration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354.25" y="94" width="130" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9YlLgLPU3R_bMf61u_1-56" target="A9YlLgLPU3R_bMf61u_1-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="812" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-56" value="Predicted BRIS &#xa;Stock Price" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="608.25" y="94" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-57" value="" style="startArrow=none;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="A9YlLgLPU3R_bMf61u_1-59" target="A9YlLgLPU3R_bMf61u_1-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140.25" y="-27" as="sourcePoint" />
+            <mxPoint x="305.2500000000002" y="58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-58" value="" style="startArrow=none;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="A9YlLgLPU3R_bMf61u_1-49" target="A9YlLgLPU3R_bMf61u_1-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-59" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Dataset &lt;br&gt;BRIS Stock Price" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="58.75" y="-151" width="130" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-60" value="input" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8" y="-170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-61" value="proses" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A9YlLgLPU3R_bMf61u_1-62" value="output" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="68" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
