@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="ep-C5gz9cR1jtgYTGuSX">
-    <mxGraphModel>
+    <mxGraphModel dx="1098" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LfihWLioSrC3FYcOR2sn-1" value="Sistem Administrasi Skripsi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="255" height="509" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-2" value="Sistem Administrasi Skripsi" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="172" width="205" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-3" value="Mahasiswa" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="20" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-4" value="Dosen Pembimbing/Penguji" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="118" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-5" value="Admin/Tata Usaha" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-6" value="Program Studi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="323" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-7" value="Publik/Repositori" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-8" value="Data Pendaftaran, Proposal" style="startArrow=none;endArrow=block;exitX=0;exitY=0.62;entryX=0.89;entryY=0;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-3" target="LfihWLioSrC3FYcOR2sn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-9" value="Status, Jadwal Sidang, Sertifikat" style="startArrow=none;endArrow=block;exitX=0.8;exitY=0;entryX=0;entryY=0.37;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-2" target="LfihWLioSrC3FYcOR2sn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-10" value="Persetujuan Bimbingan, Nilai Sidang" style="startArrow=none;endArrow=block;exitX=0;exitY=0.79;entryX=1;entryY=0.3;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-4" target="LfihWLioSrC3FYcOR2sn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-11" value="Data Mahasiswa Bimbingan/Uji" style="startArrow=none;endArrow=block;exitX=1;exitY=0.06;entryX=0;entryY=0.23;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-2" target="LfihWLioSrC3FYcOR2sn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-12" value="Validasi, Penjadwalan, Aturan" style="startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=1;entryY=0.71;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-5" target="LfihWLioSrC3FYcOR2sn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-13" value="Laporan Proses, Rekap Data" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.32;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-2" target="LfihWLioSrC3FYcOR2sn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-14" value="Data Pelaporan Akreditasi" style="startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=0;entryY=0.35;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-2" target="LfihWLioSrC3FYcOR2sn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-15" value="Aturan Skripsi (Input)" style="startArrow=none;endArrow=block;exitX=0;exitY=0.66;entryX=0.91;entryY=1;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-6" target="LfihWLioSrC3FYcOR2sn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfihWLioSrC3FYcOR2sn-16" value="Akses Hasil Skripsi (Repositori)" style="startArrow=none;endArrow=block;exitX=0.77;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="LfihWLioSrC3FYcOR2sn-2" target="LfihWLioSrC3FYcOR2sn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
