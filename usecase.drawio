@@ -1,86 +1,126 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.4">
   <diagram name="Page-1" id="gbAMFzzMmxP-wv9onbIO">
-    <mxGraphModel dx="1809" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-11" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Mahasiswa" vertex="1">
           <mxGeometry height="60" width="30" x="60" y="145" as="geometry" />
         </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-16" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-15">
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-126" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="MAAI_l6g5ANoFtb0Tr59-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-127" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="MAAI_l6g5ANoFtb0Tr59-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin" vertex="1">
           <mxGeometry height="60" width="30" x="60" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-12" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-12" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="MAAI_l6g5ANoFtb0Tr59-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244.32664531801174" y="147.9114945278817" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-13" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-13" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="MAAI_l6g5ANoFtb0Tr59-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="267.46977626494504" y="165.67490897151174" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-14" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login" vertex="1">
-          <mxGeometry height="70" width="140" x="130" y="140" as="geometry" />
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-14" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="MAAI_l6g5ANoFtb0Tr59-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258.48887512198894" y="194.22921921818818" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Upload Praproposal" vertex="1">
-          <mxGeometry height="70" width="140" x="310" y="30" as="geometry" />
+          <mxGeometry height="70" width="140" x="190" y="30" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Melihat Jadwal Ujian" vertex="1">
-          <mxGeometry height="70" width="140" x="310" y="200" as="geometry" />
+          <mxGeometry height="70" width="140" x="190" y="200" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Daftar Sempro, Kompre, Semhas, dan Sidang Skripsi" vertex="1">
-          <mxGeometry height="80" width="160" x="300" y="110" as="geometry" />
-        </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-18" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-20" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-19">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="80" width="160" x="180" y="110" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login" vertex="1">
-          <mxGeometry height="70" width="140" x="130" y="320" as="geometry" />
+          <mxGeometry height="70" width="140" x="490" y="270" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Membuat Jadwal Ujian" vertex="1">
-          <mxGeometry height="70" width="140" x="310" y="320" as="geometry" />
+          <mxGeometry height="70" width="140" x="190" y="290" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Menentukan Penguji" vertex="1">
-          <mxGeometry height="70" width="140" x="310" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-26" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="70" width="140" x="190" y="370" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Sekprodi" vertex="1">
-          <mxGeometry height="60" width="30" x="60" y="630" as="geometry" />
-        </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-24" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-23">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="60" width="30" x="60" y="570" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-22" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Kaprodi" vertex="1">
-          <mxGeometry height="60" width="30" x="60" y="525" as="geometry" />
+          <mxGeometry height="60" width="30" x="60" y="465" as="geometry" />
         </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-28" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-27">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-28" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="MAAI_l6g5ANoFtb0Tr59-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="495" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login" vertex="1">
-          <mxGeometry height="70" width="140" x="130" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-30" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MAAI_l6g5ANoFtb0Tr59-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MAAI_l6g5ANoFtb0Tr59-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login" vertex="1">
-          <mxGeometry height="70" width="140" x="130" y="625" as="geometry" />
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-30" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="MAAI_l6g5ANoFtb0Tr59-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="600" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ACC Praproposal" vertex="1">
-          <mxGeometry height="70" width="140" x="310" y="520" as="geometry" />
+          <mxGeometry height="70" width="140" x="190" y="460" as="geometry" />
         </mxCell>
         <mxCell id="MAAI_l6g5ANoFtb0Tr59-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Menentukan&lt;br&gt;Pembimbing 2" vertex="1">
-          <mxGeometry height="70" width="140" x="310" y="625" as="geometry" />
+          <mxGeometry height="70" width="140" x="190" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-130" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-7" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="410" y="310" as="sourcePoint" />
+            <mxPoint x="570" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-131" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-9" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="318" y="100" as="sourcePoint" />
+            <mxPoint x="692" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-132" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="336" y="183" as="sourcePoint" />
+            <mxPoint x="683" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-133" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-17" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="336" y="256" as="sourcePoint" />
+            <mxPoint x="674" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-134" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-19" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="334" as="sourcePoint" />
+            <mxPoint x="670" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-135" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-27" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="335" y="403" as="sourcePoint" />
+            <mxPoint x="675" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-136" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-29" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="326" y="484" as="sourcePoint" />
+            <mxPoint x="684" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-137" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validasi Email&lt;br&gt;dan Password" vertex="1">
+          <mxGeometry height="70" width="140" x="490" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="MAAI_l6g5ANoFtb0Tr59-138" edge="1" parent="1" source="MAAI_l6g5ANoFtb0Tr59-137" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="MAAI_l6g5ANoFtb0Tr59-15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="520" y="645" as="sourcePoint" />
+            <mxPoint x="798" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
