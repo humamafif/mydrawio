@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Jz5zQIS_uvoiuBSeJa1g">
-    <mxGraphModel dx="17767" dy="10500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4591" dy="2333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,11 +280,11 @@
         <mxCell id="2JuC2PJzPHsOAmO1l9kp-122" edge="1" parent="1" source="2JuC2PJzPHsOAmO1l9kp-70" style="startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.5;entryY=0;rounded=0;fontSize=14;" target="2JuC2PJzPHsOAmO1l9kp-82" value="user">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2JuC2PJzPHsOAmO1l9kp-123" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#64748b;strokeColor=#94a3b8;fontColor=#fff;fontSize=14;" value="Pengunjung (tanpa login)" vertex="1">
-          <mxGeometry height="63" width="231" x="366.5" y="2210" as="geometry" />
+        <mxCell id="2hrUBPDbB50O6Ks0yj9A-13" edge="1" parent="1" source="2JuC2PJzPHsOAmO1l9kp-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2JuC2PJzPHsOAmO1l9kp-125">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2JuC2PJzPHsOAmO1l9kp-124" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#1e40af;strokeColor=#3b82f6;fontColor=#fff;fontSize=14;" value="Halaman Utama&#xa;(Slide Show, Berita Terbaru,&#xa;Pengumuman, Agenda,&#xa;Dokumen, Aplikasi Terkait,&#xa;Statistik Pegawai)" vertex="1">
-          <mxGeometry height="110" width="260" x="351.5" y="2290" as="geometry" />
+        <mxCell id="2JuC2PJzPHsOAmO1l9kp-123" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#64748b;strokeColor=#94a3b8;fontColor=#fff;fontSize=14;" value="Pengunjung (tanpa login)" vertex="1">
+          <mxGeometry height="63" width="231" x="366.5" y="2320" as="geometry" />
         </mxCell>
         <mxCell id="2hrUBPDbB50O6Ks0yj9A-4" edge="1" parent="1" source="2JuC2PJzPHsOAmO1l9kp-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2hrUBPDbB50O6Ks0yj9A-1">
           <mxGeometry relative="1" as="geometry">
@@ -370,19 +370,13 @@
           <mxGeometry height="54" width="74" x="883.5" y="2536" as="geometry" />
         </mxCell>
         <mxCell id="2JuC2PJzPHsOAmO1l9kp-148" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=14;" value="Survey Kepuasan" vertex="1">
-          <mxGeometry height="54" width="86" x="1063.5" y="2536" as="geometry" />
+          <mxGeometry height="54" width="86" x="966.5" y="2536" as="geometry" />
         </mxCell>
         <mxCell id="2JuC2PJzPHsOAmO1l9kp-149" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=14;" value="Isi Survey" vertex="1">
-          <mxGeometry height="55" width="86.25" x="1063.25" y="2615.5" as="geometry" />
+          <mxGeometry height="55" width="86.25" x="966.25" y="2615.5" as="geometry" />
         </mxCell>
         <mxCell id="2JuC2PJzPHsOAmO1l9kp-150" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#166534;strokeColor=#4ade80;fontColor=#fff;fontSize=14;" value="Survey&#xa; terkirim" vertex="1">
-          <mxGeometry height="54" width="93" x="1060" y="2686.5" as="geometry" />
-        </mxCell>
-        <mxCell id="2JuC2PJzPHsOAmO1l9kp-151" edge="1" parent="1" source="2JuC2PJzPHsOAmO1l9kp-123" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;" target="2JuC2PJzPHsOAmO1l9kp-124" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2JuC2PJzPHsOAmO1l9kp-152" edge="1" parent="1" source="2JuC2PJzPHsOAmO1l9kp-124" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;" target="2JuC2PJzPHsOAmO1l9kp-125" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="54" width="93" x="963" y="2686.5" as="geometry" />
         </mxCell>
         <mxCell id="2JuC2PJzPHsOAmO1l9kp-153" edge="1" parent="1" source="2JuC2PJzPHsOAmO1l9kp-125" style="startArrow=none;endArrow=block;exitX=0;exitY=0.56;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;" target="2JuC2PJzPHsOAmO1l9kp-126" value="">
           <mxGeometry relative="1" as="geometry" />
